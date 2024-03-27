@@ -2,3 +2,25 @@ html{
 font-family:'Poppins', 'sans-serif';
 
 }
+.container {
+        display: flex;
+        flex.direction: column;
+    }
+
+    .box {
+        width: 50%;
+        border: 1px solid #000;
+        box-sizing: border-box;
+    }
+
+    .box:nth-child(1)    {
+        background-color: #B8860B
+    }
+
+    .box:nth-child(2)    {
+        background-color: #9932cc 
+    }
+
+    .box:nth-child(3)    {
+        background-color: #6495ed
+    } 
